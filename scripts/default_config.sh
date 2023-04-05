@@ -51,7 +51,6 @@ function customize_image() {
     terminator \
     apt-transport-https \
     curl \
-    vim \
     nano \
     less \
     flashrom
