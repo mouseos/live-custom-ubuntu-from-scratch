@@ -53,7 +53,8 @@ function customize_image() {
     curl \
     vim \
     nano \
-    less
+    less \
+    flashrom
 
     # purge
     apt-get purge -y \
