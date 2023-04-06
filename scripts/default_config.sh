@@ -50,6 +50,9 @@ function customize_image() {
     less \
     flashrom
 
+    # system
+    apt-get install -y memtest86+
+
 }
 
 # Used to version the configuration.  If breaking changes occur, manual
