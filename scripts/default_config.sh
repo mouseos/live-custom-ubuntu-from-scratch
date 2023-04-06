@@ -39,31 +39,11 @@ export TARGET_PACKAGE_REMOVE="
 # Package customisation function.  Update this function to customize packages
 # present on the installed system.
 function customize_image() {
-    # install graphics and desktop
-    #apt-get install -y \
-    #plymouth-theme-ubuntu-logo \
-    #ubuntu-gnome-desktop \
-    #ubuntu-gnome-wallpapers
-
     # useful tools
     apt-get install -y \
-    #clamav-daemon \
-    #terminator \
-    #apt-transport-https \
-    #curl \
     nano \
     less \
     flashrom
-
-    # purge
-    apt-get purge -y \
-    transmission-gtk \
-    transmission-common \
-    gnome-mahjongg \
-    gnome-mines \
-    gnome-sudoku \
-    aisleriot \
-    hitori
 }
 
 # Used to version the configuration.  If breaking changes occur, manual
