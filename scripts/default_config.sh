@@ -39,12 +39,16 @@ export TARGET_PACKAGE_REMOVE="
 # Package customisation function.  Update this function to customize packages
 # present on the installed system.
 function customize_image() {
+
     # useful tools
     apt-get install -y \
+    clamav-daemon \
+    terminator \
+    apt-transport-https \
+    curl \
     nano \
     less \
-    flashrom \
-    plymouth-theme-ubuntu-logo
+    flashrom
 
 }
 
