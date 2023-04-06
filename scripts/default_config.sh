@@ -43,7 +43,9 @@ function customize_image() {
     apt-get install -y \
     nano \
     less \
-    flashrom
+    flashrom \
+    plymouth-theme-ubuntu-logo
+
 }
 
 # Used to version the configuration.  If breaking changes occur, manual
